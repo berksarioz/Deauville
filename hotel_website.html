@@ -20,6 +20,17 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
+      .container2 {
+      width: 1150px;
+      height: 600px;
+      }
+
+      /* resize images */
+      .container2 img {
+      width: 100%;
+      height: auto;
+      }
+      
       footer {color: #FFF; background-color: #000000; padding: 20px 20px;
       margin: 20 20 20px;}
       p.headline-small{font-size: 24px;font-family:"Verdana"}
@@ -50,9 +61,11 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h2>Deauville Beach Resort</h2><br/><br/>
-        <img border="0" style="float:left" src="images/hotel_lobby.jpg">
+        <h2>Deauville Beach Resort</h2>
 
+        <div class="container2">
+        <img border="0" style="float:left" src="images/hotel_lobby.jpg">
+      </div>
       </div>
     </div>
 
@@ -66,7 +79,7 @@
           <p><a class="btn btn-default" href="http://en.wikipedia.org/wiki/Miami_Beach,_Florida" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-           <a href="http://en.wikipedia.org/wiki/World_Erotic_Art_Museum_Miami"><img src="images/erotic_art_bw.jpg" onmouseover="this.src='images/erotic_art_color.jpg'" onmouseout="this.src='images/erotic_art_bw.jpg'"/></a>
+           <a href="http://en.wikipedia.org/wiki/World_Erotic_Art_Museum_Miami"><img src="images/museum_bw.jpg" onmouseover="this.src='images/museum_color.jpg'" onmouseout="this.src='images/museum_bw.jpg'"/></a>
           <h2>Art Museum</h2>
           <p>The World Erotic Art Museum Miami, located in the heart of the Art Deco District, is a museum, library and education think tank that uses its collection to illustrate the history of erotic art. The Museum shows artwork from artists like Rembrandt, Picasso, Salvador Dalí, Fernando Botero, and many more. </p>
           <p><a class="btn btn-default" href="http://en.wikipedia.org/wiki/World_Erotic_Art_Museum_Miami" role="button">View details &raquo;</a></p>
